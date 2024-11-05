@@ -40,7 +40,7 @@ class TestLogin:
         time.sleep(5)  # Optional: Pause to observe the result (not recommended for production code)
         self.driver.quit()
 
-def read_credentials(file_path):
+def 	read_credentials(file_path):
     with open(file_path, 'r') as file:
         data = json.load(file)
     return data['email'], data['password']
